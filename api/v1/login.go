@@ -2,6 +2,7 @@ package v1
 
 import (
 	"github.com/gin-gonic/gin"
+	"github.com/golang-jwt/jwt/v5"
 	"go_blog/middleware"
 	"go_blog/model"
 	"go_blog/utils/errmsg"
